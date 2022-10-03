@@ -52,7 +52,7 @@ h4 {
 
 .song:hover {
   transition: 0.5s;
-  background: #62ebbd;
+  background-color: #62ebbd;
   border-radius: 1rem;
 }
 
