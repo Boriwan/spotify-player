@@ -18,7 +18,6 @@ export default function Player({ accessToken, trackUri }) {
                 sliderHandleColor: '#126872',
                 trackArtistColor: '#95EBEB',
                 trackNameColor: '#B5F1F1',
-                height: '240%',
             }}
             syncExternalDevice={false}
             token={accessToken}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import useAuth from "../hooks/useAuth"
-import { Divider, FormControl, Input, InputLabel } from "@mui/material"
+import { FormControl, Input, InputLabel } from "@mui/material"
 import NavBar from "./NavBar";
 import SpotifyWebApi from "spotify-web-api-node";
 import TrackSearchResult from "./TrackSearchResult";
@@ -66,18 +66,12 @@ export default function Dashboard({ code }) {
             <div className="glass">
                 <div className="songs">
                     {searchResults.map(track => (
-                        <>
-                            <div className="song">
-                                <TrackSearchResult
-                                    track={track}
-                                    key={track.uri}
-                                    chooseTrack={chooseTrack}
-                                />
-                            </div>
-                            <div>
-                                <Divider variant="middle" />
-                            </div>
-                        </>
+                        <TrackSearchResult
+                            track={track}
+                            key={track.uri}
+                            chooseTrack={chooseTrack}
+                        />
+
                     ))}
                 </div>
             </div>
