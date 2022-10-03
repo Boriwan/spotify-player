@@ -71,7 +71,6 @@ export default function Dashboard({ code }) {
                             key={track.uri}
                             chooseTrack={chooseTrack}
                         />
-
                     ))}
                 </div>
             </div>
