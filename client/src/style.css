@@ -6,7 +6,7 @@ body {
 }
 
 h4 {
-  color: #126872;
+  color: #0d4247;
   font-weight: bold;
 }
 
@@ -65,11 +65,11 @@ h4 {
 .track {
   margin: 0.1rem;
   padding: 0.5rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .track:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   background-color: #62ebbd;
   border-radius: 1rem;
   margin-left: 1rem;
