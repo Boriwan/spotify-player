@@ -88,6 +88,7 @@ h4 {
   width: 100%;
   margin-left: -0.5rem;
   color: #8bcbcc;
+  cursor: pointer;
 }
 
 #login_button {
