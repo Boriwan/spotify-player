@@ -4,16 +4,17 @@ body {
   background: linear-gradient(0deg, #22c1c3 0%, #7fffd4 100%);
   background-attachment: fixed;
 }
+
 h4 {
   color: #126872;
-  margin-left: 2rem;
 }
 
 .centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .glass {
@@ -25,18 +26,33 @@ h4 {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid #ffffff4d;
   margin-top: 2rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-bottom: 5rem;
+  margin-left: 40rem;
+  margin-right: 40rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1800px) {
+  .glass {
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .glass {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .glass {
     margin-left: 2rem;
     margin-right: 2rem;
   }
 }
 
-.songs {
+.trackList {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -45,13 +61,13 @@ h4 {
   overflow-y: auto;
 }
 
-.song {
+.track {
   margin: 0.1rem;
   padding: 0.5rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
-.song:hover {
+.track:hover {
   transition: 0.5s;
   background-color: #62ebbd;
   border-radius: 1rem;
@@ -59,7 +75,7 @@ h4 {
   margin-right: 1rem;
 }
 
-.tracks {
+.trackAlign {
   display: flex;
   align-items: center;
   margin: 1rem;
@@ -68,13 +84,14 @@ h4 {
 
 .player {
   position: fixed;
-  bottom: 0;
-  width: 90%;
+  bottom: 0rem;
+  width: 100%;
+  margin-left: -0.5rem;
+  color: #8bcbcc;
 }
 
 #login_button {
   background-color: #1ccc5a;
-  border-radius: 5rem;
 }
 
 #logo {
@@ -86,6 +103,6 @@ h4 {
 }
 
 #search {
-  color: #7fffd4;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
