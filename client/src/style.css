@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #22c1c3;
   background: linear-gradient(0deg, #22c1c3 0%, #7fffd4 100%);
   background-attachment: fixed;
@@ -74,13 +74,13 @@ h4 {
   border-radius: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .trackAlign {
   display: flex;
   align-items: center;
   margin: 1rem;
-  cursor: pointer;
 }
 
 .player {
