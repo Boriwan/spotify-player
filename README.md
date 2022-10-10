@@ -1,4 +1,4 @@
-# Spotify Player made in React <> ⚛
+# Spotify Player made in React </> ⚛
 
 ### My own Spotify player build in react using the [Spotify API](https://developer.spotify.com/documentation/web-api/)
 
