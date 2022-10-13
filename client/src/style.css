@@ -63,7 +63,6 @@ h4 {
 }
 
 .track {
-  margin: 0.1rem;
   padding: 0.5rem;
   transition: 0.2s;
 }
@@ -72,7 +71,7 @@ h4 {
   transition: 0.3s;
   background-color: #62ebbd;
   border-radius: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.2rem;
   margin-right: 1rem;
   cursor: pointer;
 }
